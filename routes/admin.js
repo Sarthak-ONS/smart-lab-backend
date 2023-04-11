@@ -8,5 +8,7 @@ router.get('/postUnlockingData', adminController.postUnlockingData);
 
 router.post('/postLogs', adminController.postLogs);
 
+router.post('/sendEmail', adminController.sendEmail)
+
 
 module.exports = router;
